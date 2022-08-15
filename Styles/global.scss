@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    // background-image: url("/assets/Images/Edited_bg.png");
+    // background-position: center;
+    // background-repeat: no-repeat;
+}
+
+.bg {
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    height: 100%;
+}
+
+.head-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    // margin: 2rem 0 0 0;
+    &__sign {
+        height: 10rem;
+    }
+
+    &__credit {
+        font-size: 2rem;
+        font-weight: 700;
+        background-color: rgba(255, 255, 255, 0.447);
+        border-radius: 6px;
+        padding: 1rem;
+    }
+}
+
+.content {
+    // width: 100%;
+    display: flex;
+    margin: .5rem 4rem;
+
+    &__disc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 50%;
+        
+        // align-items: center;
+    }
+
+    &__gif {
+        align-self: center;
+        // padding: 0 0 0 4rem;
+    }
+
+    &__disc-text {
+        align-self: center;
+        font-size: 1.4rem;
+        background-color: hsl(0, 0, 90%);
+        border-radius: 6px;
+        padding: 1rem;
+    }
+
+    &__dynamic-space {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 5rem;
+        flex: 2 0 auto;
+        
+    }
+
+    &__dynamic-info {
+        padding: 2rem;
+        background-color: hsl(0, 0, 90%);
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    &__episode-name {}
+
+    &__episode-number {}
+
+    &__season {}
+
+    &__dynamic-button {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+    }
+
+    &__button {
+        border: 10px solid red;
+        background-color: rgb(255, 240, 36);
+        color: red;
+        border-radius: 6px;
+        font-size: 1.5rem;
+        padding: .5rem 2rem;
+    }
+}
