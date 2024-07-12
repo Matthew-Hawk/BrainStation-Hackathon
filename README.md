@@ -1,0 +1,1 @@
+This was the first Coding project I have ever done collaborativly with another person. I could go back through it,polish it up, and fix gerneral coding mistakes but I like to look at it now and then to see how far I have personally come.
